@@ -13,6 +13,8 @@ gem 'inherited_resources'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.8"
+  gem 'autotest'
+  gem 'webrat'
 end
 
 # Gems used only for assets and not required
